@@ -1,5 +1,5 @@
-mod csv;
-mod opts;
+mod cli;
+mod process;
 
-pub use self::csv::process_csv;
-pub use opts::{Opts, SubCommand};
+pub use cli::*;
+pub use process::*;
